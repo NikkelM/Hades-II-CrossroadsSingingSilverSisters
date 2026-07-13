@@ -1,2 +1,0 @@
-{f9512bb8-8906-42a0-8e9b-da27df8f4a8a} bank:/ModsNikkelMCrossroadsSingingSilverSistersMusic
-{35bd94fd-f82b-45d0-a57f-539e855f30ef} event:/ApolloSong

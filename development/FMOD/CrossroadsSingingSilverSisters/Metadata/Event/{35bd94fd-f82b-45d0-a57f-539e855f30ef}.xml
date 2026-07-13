@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{35bd94fd-f82b-45d0-a57f-539e855f30ef}">
 		<property name="name">
-			<value>ApolloSong</value>
+			<value>Fated Glory</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -83,8 +83,14 @@
 			<destination>{8a16b3a7-4abc-42ae-872b-16e9abf3d720}</destination>
 			<destination>{30dfa13b-9ecf-46c8-83df-113881371ac6}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{3decd0d7-8b11-4478-8f99-e663d02b38a6}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{98823880-9dc5-4d19-82bf-baacffd8692b}">
+		<property name="volume">
+			<value>9</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{3a407e45-5685-4009-a987-0127fe4c36ed}</destination>
 		</relationship>
@@ -151,6 +157,20 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{98823880-9dc5-4d19-82bf-baacffd8692b}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{3decd0d7-8b11-4478-8f99-e663d02b38a6}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>180.43244897959184</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{510976a1-389b-4c86-989b-8a9b827d8e64}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{e59a413c-463e-47de-ba87-6d38a3281b84}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{3a407e45-5685-4009-a987-0127fe4c36ed}">

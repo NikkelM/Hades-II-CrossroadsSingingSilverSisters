@@ -10,7 +10,7 @@ mod.ModdedCrossroadsSongs = {
 	-- Apollo's song "Fated Glory" (/Music/ApolloSong): solo, Vocals = Apollo
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ApolloSong_Lyrics = "Song_ApolloSong",
 	-- Credits song "Time Belongs To Us": baked duet (/Music/IrisEndTheme) plus stem-separable Crossroads version (/Music/IrisEndThemeCrossroads_MC)
-	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Credits = "Song_IrisEndTheme",
+	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Lyrics = "Song_IrisEndTheme",
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Artemis = "Song_IrisEndThemeAcoustic",
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Melinoe =
 	"ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Artemis",
@@ -22,8 +22,7 @@ local songWorldUpgradeData = {
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Artemis = {
 		Name = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Artemis",
 		InheritFrom = { "DefaultSongItem" },
-		TrackName = "/Music/ArtemisSong_MC",
-		ModsNikkelMCrossroadsSingingSilverSisters_TrackOffset = 12,
+		TrackName = "{579d4b44-552e-4096-a44f-cb698012626a}", -- event:/Moonlight Guide Us (custom bank)
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals = 1,
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals2 = 0,
 
@@ -39,8 +38,7 @@ local songWorldUpgradeData = {
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Melinoe = {
 		Name = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Melinoe",
 		InheritFrom = { "DefaultSongItem" },
-		TrackName = "/Music/ArtemisSong_MC",
-		ModsNikkelMCrossroadsSingingSilverSisters_TrackOffset = 12,
+		TrackName = "{579d4b44-552e-4096-a44f-cb698012626a}", -- event:/Moonlight Guide Us (custom bank)
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals = 0,
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals2 = 1,
 
@@ -56,8 +54,7 @@ local songWorldUpgradeData = {
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Duet = {
 		Name = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Duet",
 		InheritFrom = { "DefaultSongItem" },
-		TrackName = "/Music/ArtemisSong_MC",
-		ModsNikkelMCrossroadsSingingSilverSisters_TrackOffset = 12,
+		TrackName = "{579d4b44-552e-4096-a44f-cb698012626a}", -- event:/Moonlight Guide Us (custom bank)
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals = 1,
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals2 = 1,
 
@@ -86,11 +83,10 @@ local songWorldUpgradeData = {
 			CosmeticsPoints = 250,
 		},
 	},
-	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Credits = {
-		Name = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Credits",
+	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Lyrics = {
+		Name = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Lyrics",
 		InheritFrom = { "DefaultSongItem" },
-		TrackName = "/Music/IrisEndTheme",
-		ModsNikkelMCrossroadsSingingSilverSisters_TrackOffset = 33,
+		TrackName = "{86f7fa50-de4b-44ef-931a-8c7f45fa2dae}", -- event:/Time Belongs To Us Credits (custom bank, loops)
 
 		GameStateRequirements = {
 			{
@@ -104,8 +100,7 @@ local songWorldUpgradeData = {
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Artemis = {
 		Name = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Artemis",
 		InheritFrom = { "DefaultSongItem" },
-		TrackName = "/Music/IrisEndThemeCrossroads_MC",
-		ModsNikkelMCrossroadsSingingSilverSisters_TrackOffset = 33,
+		TrackName = "{818c2810-f16f-455e-9bfd-25ea291ad1d4}", -- event:/Time Belongs To Us Crossroads Mix (custom bank)
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals = 1,
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals2 = 0,
 
@@ -121,8 +116,7 @@ local songWorldUpgradeData = {
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Melinoe = {
 		Name = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Melinoe",
 		InheritFrom = { "DefaultSongItem" },
-		TrackName = "/Music/IrisEndThemeCrossroads_MC",
-		ModsNikkelMCrossroadsSingingSilverSisters_TrackOffset = 33,
+		TrackName = "{818c2810-f16f-455e-9bfd-25ea291ad1d4}", -- event:/Time Belongs To Us Crossroads Mix (custom bank)
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals = 0,
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals2 = 1,
 
@@ -138,8 +132,7 @@ local songWorldUpgradeData = {
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Duet = {
 		Name = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Duet",
 		InheritFrom = { "DefaultSongItem" },
-		TrackName = "/Music/IrisEndThemeCrossroads_MC",
-		ModsNikkelMCrossroadsSingingSilverSisters_TrackOffset = 33,
+		TrackName = "{818c2810-f16f-455e-9bfd-25ea291ad1d4}", -- event:/Time Belongs To Us Crossroads Mix (custom bank)
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals = 1,
 		ModsNikkelMCrossroadsSingingSilverSisters_Vocals2 = 1,
 

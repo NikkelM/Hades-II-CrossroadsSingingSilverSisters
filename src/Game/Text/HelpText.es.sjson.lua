@@ -26,7 +26,7 @@ local newData = {
     Description = "Theme of the Olympian gods standing together in unlikely solidarity against a common threat."
   },
   {
-    Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Credits",
+    Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Lyrics",
     DisplayName = "Time Belongs To Us \\[Credits\\]",
     Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
   },
