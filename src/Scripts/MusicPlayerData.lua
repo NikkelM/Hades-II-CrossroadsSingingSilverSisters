@@ -1,21 +1,41 @@
--- The value of a new song in this table is the song after which the new one should be inserted in the Music Maker list
--- Vocals controls the primary singer (e.g. Artemis/Apollo), Vocals2 the secondary singer (e.g. Melinoë)
+-- The value of a new song in this table is the song after which the new one should be inserted
 mod.ModdedCrossroadsSongs = {
-	-- Artemis' song "Moonlight Guide Us" (/Music/ArtemisSong_MC): Vocals = Artemis, Vocals2 = Melinoë
+	-- "Moonlight Guide Us"
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Artemis = "Song_ArtemisSong",
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Melinoe =
 	"ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Artemis",
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Duet =
 	"ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Melinoe",
-	-- Apollo's song "Fated Glory" (/Music/ApolloSong): solo, Vocals = Apollo
+	-- "Fated Glory"
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ApolloSong_Lyrics = "Song_ApolloSong",
-	-- Credits song "Time Belongs To Us": baked duet (/Music/IrisEndTheme) plus stem-separable Crossroads version (/Music/IrisEndThemeCrossroads_MC)
+	-- "Time Belongs To Us"
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Lyrics = "Song_IrisEndTheme",
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Artemis = "Song_IrisEndThemeAcoustic",
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Melinoe =
 	"ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Artemis",
 	ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Duet =
 	"ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Melinoe",
+}
+
+-- Resolve each song to its base version, so switching between them seems like switching voices only, and doesn't restart the track
+mod.SongVersionGroup = {}
+for songKey in pairs(mod.ModdedCrossroadsSongs) do
+	local base = mod.ModdedCrossroadsSongs[songKey]
+	local guard = 0
+	while mod.ModdedCrossroadsSongs[base] ~= nil and guard < 16 do
+		base = mod.ModdedCrossroadsSongs[base]
+		guard = guard + 1
+	end
+	mod.SongVersionGroup[songKey] = base
+	mod.SongVersionGroup[base] = base
+end
+
+-- Track lengths. Used to wrap the preserved playback position if a song has somehow looped past its end on another version before switching
+mod.SongVersionGroupLoopLength = {
+	Song_ArtemisSong = 177.34,
+	Song_ApolloSong = 180.43,
+	Song_IrisEndTheme = 305.078,
+	Song_IrisEndThemeAcoustic = 307.383,
 }
 
 local songWorldUpgradeData = {
