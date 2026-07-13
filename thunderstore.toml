@@ -1,0 +1,49 @@
+[config]
+schemaVersion = "0.0.1"
+
+
+[package]
+namespace = "NikkelM"
+name = "Crossroads_Singing_Silver_Sisters"
+versionNumber = "1.0.0"
+description = "Unlock lyrical versions of the songs Artemis, Melinoë and Apollo sing at the Music Maker in the Crossroads."
+websiteUrl = "https://github.com/NikkelM/Hades-II-CrossroadsSingingSilverSisters"
+containsNsfwContent = false
+
+[package.dependencies]
+Hell2Modding-Hell2Modding = "1.0.79"
+LuaENVY-ENVY = "1.2.0"
+SGG_Modding-Chalk = "2.1.1"
+SGG_Modding-ReLoad = "1.0.2"
+SGG_Modding-SJSON = "1.0.0"
+SGG_Modding-ModUtil = "4.0.1"
+
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./CHANGELOG.md"
+target = "./CHANGELOG.md"
+
+[[build.copy]]
+source = "./LICENSE"
+target = "./LICENSE"
+
+[[build.copy]]
+source = "./src"
+target = "./plugins"
+
+[[build.copy]]
+source = "./data"
+target = "./plugins_data"
+
+
+[publish]
+repository = "https://thunderstore.io"
+communities = [ "hades-ii", ]
+
+[publish.categories]
+hades-ii = [ "mods", "audio" ]
