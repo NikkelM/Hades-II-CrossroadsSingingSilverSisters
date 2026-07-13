@@ -7,43 +7,43 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Artemis",
-    DisplayName = "Moonlight Guide Us \\[Artemis\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "Mondlicht leite uns \\[Artemis Solo\\]",
+    Description = "Ein Lied, das die Silbernen Schwestern singen, um ihre Verbundenheit und Entschlossenheit zu festigen."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Melinoe",
-    DisplayName = "Moonlight Guide Us \\[Melinoë\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "Mondlicht leite uns \\[Melinoë Solo\\]",
+    Description = "Ein Lied, das die Silbernen Schwestern singen, um ihre Verbundenheit und Entschlossenheit zu festigen."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Duet",
-    DisplayName = "Moonlight Guide Us \\[Duet\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "Mondlicht leite uns \\[Duet\\]",
+    Description = "Ein Lied, das die Silbernen Schwestern singen, um ihre Verbundenheit und Entschlossenheit zu festigen."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ApolloSong_Lyrics",
-    DisplayName = "Fated Glory \\[Lyrics\\]",
-    Description = "Theme of the Olympian gods standing together in unlikely solidarity against a common threat."
+    DisplayName = "Ruhmreiches Schicksal \\[Lyrics\\]",
+    Description = "Ein Lied über die ungewöhnliche Einigkeit der Olympier gegen einen gemeinsamen Feind."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Lyrics",
-    DisplayName = "Time Belongs To Us \\[Credits\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Die Zeit gehört uns \\[Trio\\]",
+    Description = "Ein Lied zu Ehren des unvergleichlichen Sieges der Unterwelt und des Olymp."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Artemis",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Artemis\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Die Zeit gehört uns \\[Artemis Solo\\]",
+    Description = "Ein Lied zu Ehren des unvergleichlichen Sieges der Unterwelt und des Olymp."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Melinoe",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Melinoë\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Die Zeit gehört uns \\[Melinoë Solo\\]",
+    Description = "Ein Lied zu Ehren des unvergleichlichen Sieges der Unterwelt und des Olymp."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Duet",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Duet\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Die Zeit gehört uns \\[Crossroads Duet\\]",
+    Description = "Ein Lied zu Ehren des unvergleichlichen Sieges der Unterwelt und des Olymp."
   },
 }
 

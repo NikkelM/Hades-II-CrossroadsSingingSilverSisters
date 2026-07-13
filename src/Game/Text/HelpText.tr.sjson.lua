@@ -7,43 +7,43 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Artemis",
-    DisplayName = "Moonlight Guide Us \\[Artemis\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "Mehtap Üstümüze Olsun \\[Artemis Solo\\]",
+    Description = "Bağlarını pekiştirip azimlerini körüklemek istediklerinde Gümüş Kardeşler'e yardımcı olan tema müziği."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Melinoe",
-    DisplayName = "Moonlight Guide Us \\[Melinoë\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "Mehtap Üstümüze Olsun \\[Melinoë Solo\\]",
+    Description = "Bağlarını pekiştirip azimlerini körüklemek istediklerinde Gümüş Kardeşler'e yardımcı olan tema müziği."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Duet",
-    DisplayName = "Moonlight Guide Us \\[Duet\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "Mehtap Üstümüze Olsun \\[Duet\\]",
+    Description = "Bağlarını pekiştirip azimlerini körüklemek istediklerinde Gümüş Kardeşler'e yardımcı olan tema müziği."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ApolloSong_Lyrics",
-    DisplayName = "Fated Glory \\[Lyrics\\]",
-    Description = "Theme of the Olympian gods standing together in unlikely solidarity against a common threat."
+    DisplayName = "Görkemli Kader \\[Lyrics\\]",
+    Description = "Ortak bir düşmana karşı beklenmedik bir dayanışma içine giren Olimpos tanrılarının tema müziği."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Lyrics",
-    DisplayName = "Time Belongs To Us \\[Credits\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Bizim Zamanımız \\[Trio\\]",
+    Description = "Yer Altı Dünyası ile Olimpos'un eşsiz zaferini ölümsüzleştiren tema müziği."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Artemis",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Artemis\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Bizim Zamanımız \\[Artemis Solo\\]",
+    Description = "Yer Altı Dünyası ile Olimpos'un eşsiz zaferini ölümsüzleştiren tema müziği."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Melinoe",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Melinoë\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Bizim Zamanımız \\[Melinoë Solo\\]",
+    Description = "Yer Altı Dünyası ile Olimpos'un eşsiz zaferini ölümsüzleştiren tema müziği."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Duet",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Duet\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Bizim Zamanımız \\[Crossroads Duet\\]",
+    Description = "Yer Altı Dünyası ile Olimpos'un eşsiz zaferini ölümsüzleştiren tema müziği."
   },
 }
 

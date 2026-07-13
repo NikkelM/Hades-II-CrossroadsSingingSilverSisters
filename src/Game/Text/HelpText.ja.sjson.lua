@@ -7,43 +7,43 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Artemis",
-    DisplayName = "Moonlight Guide Us \\[Artemis\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "月の導き\\[Artemis Solo\\]",
+    Description = "銀月の姉妹が、たがいの絆とおのれの意志を\\n固めるために唄う調べ。"
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Melinoe",
-    DisplayName = "Moonlight Guide Us \\[Melinoë\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "月の導き\\[Melinoë Solo\\]",
+    Description = "銀月の姉妹が、たがいの絆とおのれの意志を\\n固めるために唄う調べ。"
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Duet",
-    DisplayName = "Moonlight Guide Us \\[Duet\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "月の導き\\[Duet\\]",
+    Description = "銀月の姉妹が、たがいの絆とおのれの意志を\\n固めるために唄う調べ。"
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ApolloSong_Lyrics",
-    DisplayName = "Fated Glory \\[Lyrics\\]",
-    Description = "Theme of the Olympian gods standing together in unlikely solidarity against a common threat."
+    DisplayName = "運命の栄光\\[Lyrics\\]",
+    Description = "オリュンポスの神々が、意外にも一致団結し、\\n共通の脅威に立ち向かう様を唄った調べ。"
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Lyrics",
-    DisplayName = "Time Belongs To Us \\[Credits\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "時はわれらと\\[Trio\\]",
+    Description = "冥界とオリュンポスがつかんだ、比類なき勝利を祝した調べ。"
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Artemis",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Artemis\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "時はわれらと\\[Artemis Solo\\]",
+    Description = "冥界とオリュンポスがつかんだ、比類なき勝利を祝した調べ。"
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Melinoe",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Melinoë\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "時はわれらと\\[Melinoë Solo\\]",
+    Description = "冥界とオリュンポスがつかんだ、比類なき勝利を祝した調べ。"
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Duet",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Duet\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "時はわれらと\\[Crossroads Duet\\]",
+    Description = "冥界とオリュンポスがつかんだ、比類なき勝利を祝した調べ。"
   },
 }
 

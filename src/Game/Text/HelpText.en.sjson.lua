@@ -27,7 +27,7 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Lyrics",
-    DisplayName = "Time Belongs To Us \\[Lyrics\\]",
+    DisplayName = "Time Belongs To Us \\[Trio\\]",
     Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
   },
   {

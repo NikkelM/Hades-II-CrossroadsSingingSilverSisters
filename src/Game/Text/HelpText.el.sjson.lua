@@ -7,43 +7,43 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Artemis",
-    DisplayName = "Moonlight Guide Us \\[Artemis\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "Το Φως του Φεγγαριού μαζί μας \\[Artemis Solo\\]",
+    Description = "Μουσική που χρησιμοποιούν οι Αργυρές Αδελφές για να ενισχύουν τους δεσμούς τους και να παίρνουν θάρρος."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Melinoe",
-    DisplayName = "Moonlight Guide Us \\[Melinoë\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "Το Φως του Φεγγαριού μαζί μας \\[Melinoë Solo\\]",
+    Description = "Μουσική που χρησιμοποιούν οι Αργυρές Αδελφές για να ενισχύουν τους δεσμούς τους και να παίρνουν θάρρος."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ArtemisSong_Duet",
-    DisplayName = "Moonlight Guide Us \\[Duet\\]",
-    Description = "Theme the Silver Sisters use to strengthen their connection and steady their resolve."
+    DisplayName = "Το Φως του Φεγγαριού μαζί μας \\[Duet\\]",
+    Description = "Μουσική που χρησιμοποιούν οι Αργυρές Αδελφές για να ενισχύουν τους δεσμούς τους και να παίρνουν θάρρος."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_ApolloSong_Lyrics",
-    DisplayName = "Fated Glory \\[Lyrics\\]",
-    Description = "Theme of the Olympian gods standing together in unlikely solidarity against a common threat."
+    DisplayName = "Δόξα Λαμπρή \\[Lyrics\\]",
+    Description = "Μουσική για την απρόσμενη αλληλεγγύη που επιδεικνύουν οι Ολύμπιοι θεοί ενάντια σε μια κοινή απειλή."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndTheme_Lyrics",
-    DisplayName = "Time Belongs To Us \\[Credits\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Ο Χρόνος Ανήκει πια σ' Εμάς \\[Trio\\]",
+    Description = "Μουσική που μνημονεύει έναν απαράμιλλο θρίαμβο για τον Κάτω Κόσμο και για τον Όλυμπο."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Artemis",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Artemis\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Ο Χρόνος Ανήκει πια σ' Εμάς \\[Artemis Solo\\]",
+    Description = "Μουσική που μνημονεύει έναν απαράμιλλο θρίαμβο για τον Κάτω Κόσμο και για τον Όλυμπο."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Melinoe",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Melinoë\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Ο Χρόνος Ανήκει πια σ' Εμάς \\[Melinoë Solo\\]",
+    Description = "Μουσική που μνημονεύει έναν απαράμιλλο θρίαμβο για τον Κάτω Κόσμο και για τον Όλυμπο."
   },
   {
     Id = "ModsNikkelMCrossroadsSingingSilverSistersMusicPlayer_Song_IrisEndThemeCrossroads_Duet",
-    DisplayName = "Time Belongs To Us \\[Crossroads, Duet\\]",
-    Description = "Theme commemorating an incomparable victory for the Underworld and Olympus alike."
+    DisplayName = "Ο Χρόνος Ανήκει πια σ' Εμάς \\[Crossroads Duet\\]",
+    Description = "Μουσική που μνημονεύει έναν απαράμιλλο θρίαμβο για τον Κάτω Κόσμο και για τον Όλυμπο."
   },
 }
 
