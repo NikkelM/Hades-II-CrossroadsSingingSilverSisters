@@ -60,6 +60,23 @@ local endThemeDescription = {
 	["zh-CN"] = "歌颂冥界和奥林匹斯一同取得无与伦比的胜利的主题曲。",
 	["zh-TW"] = "頌揚冥界與奧林帕斯空前勝利的主題曲。",
 }
+local endThemeCrossroadsDescription = {
+	en = "Theme commemorating an incomparable victory for the Underworld and Olympus alike, but softer.",
+	de = "Ein Lied zu Ehren des unvergleichlichen Sieges der Unterwelt und des Olymp, aber sanfter.",
+	el = "Μουσική που μνημονεύει έναν απαράμιλλο θρίαμβο για τον Κάτω Κόσμο και για τον Όλυμπο, αλλά σε πιο απαλή εκτέλεση.",
+	es = "Canción que conmemora una victoria incomparable para el Inframundo y el Olimpo, pero más suave.",
+	fr = "Une version plus calme d'un morceau commémorant une victoire incomparable, tant pour l'Olympe que pour les Enfers.",
+	it = "Tema che commemora un impareggiabile trionfo per Oltretomba e Olimpo... ma con più calma.",
+	ja = "冥界とオリュンポスがつかんだ比類なき勝利を、\\n穏やかに祝した調べ。",
+	ko = "지하세계와 올림포스 양측의 유례없는 승전을 부드럽게 기리는 음악입니다.",
+	pl = "Pieśń upamiętniająca wspaniałe zwycięstwo zjednoczonych sił Podziemi i Olimpu (ale w spokojniejszej wersji).",
+	["pt-BR"] = "Tema em comemoração a uma vitória incomparável para o Submundo e o Olimpo, mas com um toque mais leve.",
+	ru = "Музыкальная тема оглушительной победы Подземного мира и Олимпа, но потише.",
+	tr = "Yer Altı Dünyası ile Olimpos'un eşsiz zaferini ölümsüzleştiren tema müziği ama daha sakin hâli.",
+	uk = "Пісня про незрівнянну перемогу Підземного світу й Олімпу (але з ніжнішим звучанням).",
+	["zh-CN"] = "歌颂冥界和奥林匹斯一同取得无与伦比的胜利的主题曲，但是更为柔和。",
+	["zh-TW"] = "頌揚冥界與奧林帕斯空前勝利的主題曲的輕柔版本。",
+}
 
 -- Moonlight Guide Us
 MusicMakerAPI.RegisterSong({
@@ -293,7 +310,7 @@ MusicMakerAPI.RegisterSong({
 		["zh-CN"] = "《时间属于我们》（Artemis Solo）",
 		["zh-TW"] = "〈時間屬於我們〉（Artemis Solo）",
 	},
-	Description = endThemeDescription,
+	Description = endThemeCrossroadsDescription,
 	VersionOf = "Song_IrisEndThemeAcoustic",
 	Stems = { "Guitar", "Bass", "Drums", "Vocals" },
 	Cost = {
@@ -329,7 +346,7 @@ MusicMakerAPI.RegisterSong({
 		["zh-CN"] = "《时间属于我们》（Melinoë Solo）",
 		["zh-TW"] = "〈時間屬於我們〉（Melinoë Solo）",
 	},
-	Description = endThemeDescription,
+	Description = endThemeCrossroadsDescription,
 	VersionOf = "Song_IrisEndThemeAcoustic",
 	Stems = { "Guitar", "Bass", "Drums", "Vocals2" },
 	Cost = {
@@ -365,7 +382,7 @@ MusicMakerAPI.RegisterSong({
 		["zh-CN"] = "《时间属于我们》（Crossroads Duet）",
 		["zh-TW"] = "〈時間屬於我們〉（Crossroads Duet）",
 	},
-	Description = endThemeDescription,
+	Description = endThemeCrossroadsDescription,
 	VersionOf = "Song_IrisEndThemeAcoustic",
 	Stems = { "Guitar", "Bass", "Drums", "Vocals", "Vocals2" },
 	Cost = {
