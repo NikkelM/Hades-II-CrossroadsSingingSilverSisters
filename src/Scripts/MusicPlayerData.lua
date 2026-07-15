@@ -63,9 +63,11 @@ local endThemeDescription = {
 local endThemeCrossroadsDescription = {
 	en = "Theme commemorating an incomparable victory for the Underworld and Olympus alike, but softer.",
 	de = "Ein Lied zu Ehren des unvergleichlichen Sieges der Unterwelt und des Olymp, aber sanfter.",
-	el = "Μουσική που μνημονεύει έναν απαράμιλλο θρίαμβο για τον Κάτω Κόσμο και για τον Όλυμπο, αλλά σε πιο απαλή εκτέλεση.",
+	el =
+	"Μουσική που μνημονεύει έναν απαράμιλλο θρίαμβο για τον Κάτω Κόσμο και για τον Όλυμπο, αλλά σε πιο απαλή εκτέλεση.",
 	es = "Canción que conmemora una victoria incomparable para el Inframundo y el Olimpo, pero más suave.",
-	fr = "Une version plus calme d'un morceau commémorant une victoire incomparable, tant pour l'Olympe que pour les Enfers.",
+	fr =
+	"Une version plus calme d'un morceau commémorant une victoire incomparable, tant pour l'Olympe que pour les Enfers.",
 	it = "Tema che commemora un impareggiabile trionfo per Oltretomba e Olimpo... ma con più calma.",
 	ja = "冥界とオリュンポスがつかんだ比類なき勝利を、\\n穏やかに祝した調べ。",
 	ko = "지하세계와 올림포스 양측의 유례없는 승전을 부드럽게 기리는 음악입니다.",
@@ -151,9 +153,6 @@ MusicMakerAPI.RegisterSong({
 			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_ArtemisSong" }
 		},
 		{
-			PathTrue = { "GameState", "WorldUpgradesAdded", _PLUGIN.guid .. "." .. "Song_ArtemisSong_Artemis" }
-		},
-		{
 			Path = { "GameState", "TextLinesRecord" },
 			HasAll = { "ArtemisGift03" },
 		},
@@ -191,14 +190,10 @@ MusicMakerAPI.RegisterSong({
 	},
 	GameStateRequirements = {
 		{
-			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_ArtemisSong" }
+			PathTrue = { "GameState", "WorldUpgradesAdded", _PLUGIN.guid .. "." .. "Song_ArtemisSong_Artemis" }
 		},
 		{
 			PathTrue = { "GameState", "WorldUpgradesAdded", _PLUGIN.guid .. "." .. "Song_ArtemisSong_Melinoe" }
-		},
-		{
-			Path = { "GameState", "TextLinesRecord" },
-			HasAll = { "ArtemisGift03" },
 		},
 	},
 	UnlockImmediately = config.unlockEverything,
@@ -356,7 +351,7 @@ MusicMakerAPI.RegisterSong({
 	},
 	GameStateRequirements = {
 		{
-			PathTrue = { "GameState", "WorldUpgradesAdded", _PLUGIN.guid .. "." .. "Song_IrisEndThemeCrossroads_Artemis" }
+			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_IrisEndThemeAcoustic" }
 		},
 	},
 	UnlockImmediately = config.unlockEverything,
@@ -393,6 +388,9 @@ MusicMakerAPI.RegisterSong({
 		MixerQBoss = 1,
 	},
 	GameStateRequirements = {
+		{
+			PathTrue = { "GameState", "WorldUpgradesAdded", _PLUGIN.guid .. "." .. "Song_IrisEndThemeCrossroads_Artemis" }
+		},
 		{
 			PathTrue = { "GameState", "WorldUpgradesAdded", _PLUGIN.guid .. "." .. "Song_IrisEndThemeCrossroads_Melinoe" }
 		},
