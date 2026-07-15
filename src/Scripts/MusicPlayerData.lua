@@ -87,11 +87,16 @@ MusicMakerAPI.RegisterSong({
 	VersionOf = "Song_ArtemisSong",
 	Stems = { "Guitar", "Bass", "Drums", "Vocals" },
 	Cost = {
-		CosmeticsPoints = 250,
+		CosmeticsPoints = 450,
+		GiftPoints = 4,
 	},
 	GameStateRequirements = {
 		{
 			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_ArtemisSong" }
+		},
+		{
+			Path = { "GameState", "TextLinesRecord" },
+			HasAll = { "ArtemisGift03" },
 		},
 	},
 	UnlockImmediately = config.unlockEverything,
@@ -121,11 +126,19 @@ MusicMakerAPI.RegisterSong({
 	VersionOf = "Song_ArtemisSong",
 	Stems = { "Guitar", "Bass", "Drums", "Vocals2" },
 	Cost = {
-		CosmeticsPoints = 250,
+		CosmeticsPoints = 550,
+		SuperGiftPoints = 2,
 	},
 	GameStateRequirements = {
 		{
 			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_ArtemisSong" }
+		},
+		{
+			PathTrue = { "GameState", "WorldUpgradesAdded", _PLUGIN.guid .. "." .. "Song_ArtemisSong_Artemis" }
+		},
+		{
+			Path = { "GameState", "TextLinesRecord" },
+			HasAll = { "ArtemisGift03" },
 		},
 	},
 	UnlockImmediately = config.unlockEverything,
@@ -155,11 +168,20 @@ MusicMakerAPI.RegisterSong({
 	VersionOf = "Song_ArtemisSong",
 	Stems = { "Guitar", "Bass", "Drums", "Vocals", "Vocals2" },
 	Cost = {
-		CosmeticsPoints = 250,
+		CosmeticsPoints = 900,
+		GiftPoints = 4,
+		SuperGiftPoints = 2,
 	},
 	GameStateRequirements = {
 		{
 			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_ArtemisSong" }
+		},
+		{
+			PathTrue = { "GameState", "WorldUpgradesAdded", _PLUGIN.guid .. "." .. "Song_ArtemisSong_Melinoe" }
+		},
+		{
+			Path = { "GameState", "TextLinesRecord" },
+			HasAll = { "ArtemisGift03" },
 		},
 	},
 	UnlockImmediately = config.unlockEverything,
@@ -191,11 +213,17 @@ MusicMakerAPI.RegisterSong({
 	VersionOf = "Song_ApolloSong",
 	Stems = { "Guitar", "Bass", "Drums", "Vocals" },
 	Cost = {
-		CosmeticsPoints = 250,
+		CosmeticsPoints = 500,
+		GiftPoints = 2,
+		SuperGiftPoints = 2,
 	},
 	GameStateRequirements = {
 		{
 			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_ApolloSong" }
+		},
+		{
+			Path = { "GameState", "TextLinesRecord" },
+			HasAll = { "ApolloGift04" },
 		},
 	},
 	UnlockImmediately = config.unlockEverything,
@@ -227,11 +255,17 @@ MusicMakerAPI.RegisterSong({
 	VersionOf = "Song_IrisEndTheme",
 	Rocking = true,
 	Cost = {
-		CosmeticsPoints = 1300,
+		CosmeticsPoints = 2000,
+		SuperGiftPoints = 3,
+		MixerIBoss = 3,
+		MixerQBoss = 3,
 	},
 	GameStateRequirements = {
 		{
 			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_IrisEndTheme" }
+		},
+		{
+			PathFalse = { "CurrentRun", "TextLinesRecord", "TrueEndingFinale01" },
 		},
 	},
 	UnlockImmediately = config.unlockEverything,
@@ -263,11 +297,13 @@ MusicMakerAPI.RegisterSong({
 	VersionOf = "Song_IrisEndThemeAcoustic",
 	Stems = { "Guitar", "Bass", "Drums", "Vocals" },
 	Cost = {
-		CosmeticsPoints = 1000,
+		CosmeticsPoints = 1250,
+		GiftPoints = 4,
+		MixerIBoss = 1,
 	},
 	GameStateRequirements = {
 		{
-			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_IrisEndTheme" }
+			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_IrisEndThemeAcoustic" }
 		},
 	},
 	UnlockImmediately = config.unlockEverything,
@@ -297,11 +333,13 @@ MusicMakerAPI.RegisterSong({
 	VersionOf = "Song_IrisEndThemeAcoustic",
 	Stems = { "Guitar", "Bass", "Drums", "Vocals2" },
 	Cost = {
-		CosmeticsPoints = 1000,
+		CosmeticsPoints = 1400,
+		SuperGiftPoints = 2,
+		MixerQBoss = 1,
 	},
 	GameStateRequirements = {
 		{
-			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_IrisEndTheme" }
+			PathTrue = { "GameState", "WorldUpgradesAdded", _PLUGIN.guid .. "." .. "Song_IrisEndThemeCrossroads_Artemis" }
 		},
 	},
 	UnlockImmediately = config.unlockEverything,
@@ -331,11 +369,15 @@ MusicMakerAPI.RegisterSong({
 	VersionOf = "Song_IrisEndThemeAcoustic",
 	Stems = { "Guitar", "Bass", "Drums", "Vocals", "Vocals2" },
 	Cost = {
-		CosmeticsPoints = 1000,
+		CosmeticsPoints = 2000,
+		GiftPoints = 4,
+		SuperGiftPoints = 2,
+		MixerIBoss = 1,
+		MixerQBoss = 1,
 	},
 	GameStateRequirements = {
 		{
-			PathTrue = { "GameState", "WorldUpgradesAdded", "Song_IrisEndTheme" }
+			PathTrue = { "GameState", "WorldUpgradesAdded", _PLUGIN.guid .. "." .. "Song_IrisEndThemeCrossroads_Melinoe" }
 		},
 	},
 	UnlockImmediately = config.unlockEverything,
