@@ -33,6 +33,9 @@ chalk = mods["SGG_Modding-Chalk"]
 ---@module 'SGG_Modding-ReLoad'
 reload = mods['SGG_Modding-ReLoad']
 
+---@module 'NikkelM-Music_Maker_API'
+MusicMakerAPI = mods["NikkelM-Music_Maker_API"]
+
 ---@module 'config'
 config = chalk.auto 'config.lua'
 -- ^ this updates our `.cfg` file in the config folder!
@@ -43,25 +46,6 @@ local function on_ready()
 	mod = modutil.mod.Mod.Register(_PLUGIN.guid)
 
 	import "Scripts/MusicPlayerData.lua"
-	import "Scripts/AudioLogic.lua"
-	import "Scripts/LoadSoundBanks.lua"
-
-	-- Localizations
-	import "Game/Text/HelpText.de.sjson.lua"
-	import "Game/Text/HelpText.el.sjson.lua"
-	import "Game/Text/HelpText.en.sjson.lua"
-	import "Game/Text/HelpText.es.sjson.lua"
-	import "Game/Text/HelpText.fr.sjson.lua"
-	import "Game/Text/HelpText.it.sjson.lua"
-	import "Game/Text/HelpText.ja.sjson.lua"
-	import "Game/Text/HelpText.ko.sjson.lua"
-	import "Game/Text/HelpText.pl.sjson.lua"
-	import "Game/Text/HelpText.pt-BR.sjson.lua"
-	import "Game/Text/HelpText.ru.sjson.lua"
-	import "Game/Text/HelpText.tr.sjson.lua"
-	import "Game/Text/HelpText.uk.sjson.lua"
-	import "Game/Text/HelpText.zh-CN.sjson.lua"
-	import "Game/Text/HelpText.zh-TW.sjson.lua"
 end
 
 local function on_reload()
