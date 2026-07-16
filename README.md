@@ -20,7 +20,7 @@ To further improve your musical experience in the Crossroads, consider installin
 
 - [Randomize Favourite Songs](https://thunderstore.io/c/hades-ii/p/NikkelM/Randomize_Favorite_Songs/) allows you to favourite songs with the Music Maker, and randomize only from those whenever you return to the Crossroads. Supports all songs added by other mods.
 - [Crossroads Singing Sirens](https://thunderstore.io/c/hades-ii/p/NikkelM/Crossroads_Singing_Sirens/) adds lyrical and hummed versions of the songs by Scylla and the Sirens to the Music Maker.
-- [Hades OST for the Music Maker](https://thunderstore.io/c/hades-ii/p/NikkelM/Hades_OST_for_the_Music_Maker/) adds songs from the Hades soundtrack (as played by Orpheus) as unlockables to the Music Maker.
+- [Hades OST for the Music Maker](https://thunderstore.io/c/hades-ii/p/NikkelM/Hades_OST_for_the_Music_Maker/) adds songs from the Hades soundtrack (as played by Orpheus) to the Music Maker.
 
 ## Configuration
 

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Mixer" id="{7441ef64-239c-4753-8058-eca993229660}">
 		<relationship name="masterBus">
-			<destination>{9b320436-fb96-4de1-8229-63da4b1d52af}</destination>
+			<destination>{837ae5af-d2e1-423d-bde4-42ac2884cf0f}</destination>
 		</relationship>
 		<relationship name="snapshotList">
 			<destination>{8c697f93-5c81-432b-87c4-3a4ce3e6cf23}</destination>
