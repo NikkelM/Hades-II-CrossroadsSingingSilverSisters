@@ -1,8 +1,8 @@
 -- Register the vanilla version groups to enable seemless switching between them and the new modded versions
-MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_ArtemisSong", LoopLength = 177 })
-MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_ApolloSong", LoopLength = 180 })
+MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_ArtemisSong", LoopLength = 177.3 })
+MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_ApolloSong", LoopLength = 180.4 })
 MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_IrisEndTheme", LoopLength = 305 })
-MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_IrisEndThemeAcoustic", LoopLength = 307 })
+MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_IrisEndThemeAcoustic", LoopLength = 307.3 })
 
 MusicMakerAPI.RegisterSoundBank(
 	rom.path.combine(_PLUGIN.plugins_data_mod_folder_path, "Audio\\ModsNikkelMCrossroadsSingingSilverSistersMusic.bank"))
