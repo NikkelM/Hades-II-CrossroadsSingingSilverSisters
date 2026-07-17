@@ -5,7 +5,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "NikkelM"
 name = "Crossroads_Singing_Silver_Sisters"
-versionNumber = "1.0.0"
+versionNumber = "1.0.1"
 description = "Unlock 8 new lyrical versions of the songs Artemis, Melinoë and Apollo sing in various scenes in the game, including the Credits song and solos and duets of both songs Artemis and Melinoë sing in the Crossroads."
 websiteUrl = "https://github.com/NikkelM/Hades-II-CrossroadsSingingSilverSisters"
 containsNsfwContent = false
