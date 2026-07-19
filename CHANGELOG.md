@@ -1,10 +1,14 @@
 # Changelog
 
-## v1.0.1
+## v1.0.2
 
 <!--Releasenotes start-->
-- Updated the package icon.
+- Fixed the songs not playing if a save is loaded in the Training Grounds, or when returning from a Chaos Trial or Dream Dive.
 <!--Releasenotes end-->
+
+## v1.0.1
+
+- Updated the package icon.
 
 ## v1.0.0
 

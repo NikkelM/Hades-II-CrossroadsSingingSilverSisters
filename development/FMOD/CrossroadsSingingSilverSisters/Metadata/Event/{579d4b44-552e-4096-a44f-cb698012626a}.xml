@@ -5,7 +5,7 @@
 			<value>Moonlight Guide Us</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a1f2c085-bbef-47e0-afa1-98e0dd5ef1d7}</destination>
@@ -219,7 +219,6 @@
 	<object class="MixerBusEffectChain" id="{ed3fd906-132d-4d73-a2b7-34ac00631a51}">
 		<relationship name="effects">
 			<destination>{5b159f62-3993-4d09-b41c-8c3b7e671be7}</destination>
-			<destination>{1f492adc-a841-42f1-bc33-c949b741dd8d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{61d7f58b-a499-4ecd-9c1a-0a29441021d7}" />
@@ -259,7 +258,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{0941e958-647e-42fc-92bf-421d17565579}" />
 	<object class="MixerBusFader" id="{5b159f62-3993-4d09-b41c-8c3b7e671be7}" />
-	<object class="SpatialiserEffect" id="{1f492adc-a841-42f1-bc33-c949b741dd8d}" />
 	<object class="MixerBusFader" id="{b0b1c3e4-a60b-48f0-9701-bb661c2bc16b}" />
 	<object class="AutomationCurve" id="{e34d0d95-b3dc-455c-aab3-f587e6e67b64}">
 		<relationship name="parameter">

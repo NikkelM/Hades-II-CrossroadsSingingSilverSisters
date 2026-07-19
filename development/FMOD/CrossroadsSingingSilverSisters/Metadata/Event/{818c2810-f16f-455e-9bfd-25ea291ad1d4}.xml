@@ -5,7 +5,7 @@
 			<value>Time Belongs To Us Crossroads Mix</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a1f2c085-bbef-47e0-afa1-98e0dd5ef1d7}</destination>
@@ -219,7 +219,6 @@
 	<object class="MixerBusEffectChain" id="{123ae316-aa4f-4c57-a4cc-e4c4d7b95eb8}">
 		<relationship name="effects">
 			<destination>{6229c64b-28d4-4159-94ac-b172863c34b9}</destination>
-			<destination>{e0701d59-798e-43e6-90a8-869be55347f8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9852bb6e-e6b3-4515-be2a-2bb356681870}" />
@@ -259,7 +258,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{608b9782-3e73-4da3-a565-1f91400b78cd}" />
 	<object class="MixerBusFader" id="{6229c64b-28d4-4159-94ac-b172863c34b9}" />
-	<object class="SpatialiserEffect" id="{e0701d59-798e-43e6-90a8-869be55347f8}" />
 	<object class="MixerBusFader" id="{28ede779-c7e7-40b2-890a-019246e496d1}" />
 	<object class="AutomationCurve" id="{f3db1915-87b2-4b43-a240-6e3ad09de514}">
 		<relationship name="parameter">

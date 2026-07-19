@@ -5,7 +5,7 @@
 			<value>Fated Glory</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a1f2c085-bbef-47e0-afa1-98e0dd5ef1d7}</destination>
@@ -176,7 +176,6 @@
 	<object class="MixerBusEffectChain" id="{3a407e45-5685-4009-a987-0127fe4c36ed}">
 		<relationship name="effects">
 			<destination>{c81c2ccd-5d9b-4256-8e3c-39bf4b4a85f9}</destination>
-			<destination>{fa8b8766-756d-4bab-bdfa-4909a3588c2a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a41e206c-edda-4fbc-ae8e-d84fc5d71c49}" />
@@ -202,7 +201,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{3d36c53e-b4ad-4c00-ad18-363a25cb4043}" />
 	<object class="MixerBusFader" id="{c81c2ccd-5d9b-4256-8e3c-39bf4b4a85f9}" />
-	<object class="SpatialiserEffect" id="{fa8b8766-756d-4bab-bdfa-4909a3588c2a}" />
 	<object class="MixerBusFader" id="{e2e3c6dc-3a0d-4eb9-8506-37ee37808560}" />
 	<object class="AutomationCurve" id="{654d8e2b-ced5-4158-9ccf-48d79fd88f64}">
 		<relationship name="parameter">

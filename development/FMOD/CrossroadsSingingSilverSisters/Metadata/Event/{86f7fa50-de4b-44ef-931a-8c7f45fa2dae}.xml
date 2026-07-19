@@ -5,7 +5,7 @@
 			<value>Time Belongs To Us Credits</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a1f2c085-bbef-47e0-afa1-98e0dd5ef1d7}</destination>
@@ -133,7 +133,6 @@
 	<object class="MixerBusEffectChain" id="{43bff067-cc43-4714-bfff-d6a0e05f08f6}">
 		<relationship name="effects">
 			<destination>{0f9a9b21-7d9e-4777-a8df-59a1a93b1581}</destination>
-			<destination>{980dc249-377a-44d6-9fd6-3e00f2fbef26}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a7252c97-dfa2-4253-997d-fb6ac205c2e2}" />
@@ -145,6 +144,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{41232312-6d1c-4740-a1ec-31055970120b}" />
 	<object class="MixerBusFader" id="{0f9a9b21-7d9e-4777-a8df-59a1a93b1581}" />
-	<object class="SpatialiserEffect" id="{980dc249-377a-44d6-9fd6-3e00f2fbef26}" />
 	<object class="MixerBusFader" id="{2566f5d8-3b9f-4cc7-8e53-96509d5fac68}" />
 </objects>
